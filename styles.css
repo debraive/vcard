@@ -1,0 +1,87 @@
+body{
+  background-image: url(https://img08.deviantart.net/4c93/i/2013/164/c/e/triangle_pattern_v2_by_black_light_studio-d68vrf3.png);
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 20% 60%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.rectangle1{
+  height: 100vh;
+  background-image: linear-gradient(#E8CC17, #E8BC18);
+  font-family: "Dosis";
+  font-size: 20px;
+  padding:20px;
+  padding-top: 50px;
+  color:#FFFFFF;
+  grid-column: 1;
+  float: right;
+
+}
+.pattern{
+  grid-column: 2;
+  width: 1200px;
+  height: 600px;
+  float: left;
+}
+.rectangle_2{
+  margin: 200px;
+  margin-top: 50px;
+  grid-column: 2;
+  height: 400px;
+  background-color: #E8CC17;
+  margin-right: 10px;
+  padding: 15px;
+  color: #FFFFFF;
+  text-align: justify;
+  border: 3px solid #FFFFFF;
+}
+  ul#menu_horizontal {  /*Ici , c'est ma configuration, à vous de la changer */
+width : 600px;
+height : 25px;
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+color: #FFFFFF;
+font-family: "Dosis";
+font-size: 15px;
+text-transform: uppercase;
+float: center;
+margin-bottom: 25px;
+}
+a{
+  color:#FFFFFF;
+}
+ul#menu_horizontal li {
+padding : 0 4em; /* Pour espacer les boutons entre eux */
+}
+li.bouton_gauche {
+float : left;
+}
+.image{
+margin-right: 10px;
+float: left;
+}
+.social{
+  width: 20px;
+  height: 20px;
+}
+p{
+  font-family: "Helvetica";
+  font-size: 14px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+ul#menu li{
+  padding: 10px; 
+  margin-top: 20px;
+  margin-left:10px;
+  list-style-type : none;
+}
+li.bouton_gauche {
+float : left;
+
+}
